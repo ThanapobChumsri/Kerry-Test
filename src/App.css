@@ -36,3 +36,150 @@
     transform: rotate(360deg);
   }
 }
+
+.half-background {
+  position: absolute;
+  width: 731px;
+  height: 820px;
+  left: 0px;
+  top: 0px;
+  background: #f58d50;
+  /* width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #F58D50 0%,
+    #F58D50 50%,
+    #F5F5F5 50%,
+    #F5F5F5 100%
+  );
+  display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+svg {
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 18px;
+  top: 18px;
+}
+
+.test {
+  position: absolute;
+  width: 750px;
+  height: 550px;
+  left: 356px;
+  top: 137px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 35px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+}
+
+.picture {
+  position: absolute;
+  width: 600.72px;
+  height: 400.32px;
+  left: 416px;
+  top: 137px;
+}
+
+.welcome {
+  /* Welcome to Kerry Express */
+
+  position: absolute;
+  width: 269px;
+  height: 36px;
+  left: 585px;
+  top: 500.32px;
+
+  /* Lead Text 2 - 21 Regular */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+}
+.span-kerry {
+  color: #f58d50;
+}
+
+.kerry1234 {
+  position: absolute;
+  width: 279px;
+  height: 92px;
+  left: 591px;
+  top: 500.32px;
+
+  /* Large Heading - h3 58 px */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 92px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+button {
+  width: 93px;
+  height: 16px;
+
+  /* Text Button (44) - 14 Bold */
+
+  font-family: "Sukhumvit Set";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  /* Gray_02/10 */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-color {
+  /* Btn:primary/main */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px;
+  gap: 10px;
+
+  position: absolute;
+  left: 93.5%;
+  right: 43.82%;
+  top: 77%;
+  bottom: 16.86%;
+
+  /* Brand Primary */
+
+  background: #f37024;
+  border-radius: 4px;
+}
+
+.eiei{
+  margin-right: -7px;
+}
