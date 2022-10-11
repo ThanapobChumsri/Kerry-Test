@@ -20,13 +20,34 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <div className="half-background">
-      <img src={logo} className="logo" alt="logo" />
-      <div className="test"></div>
-      <img src={vector} className="picture" alt="logo" />
-      <h1 className="welcome">Welcome to <span className="span-kerry">Kerry Express</span></h1>
-      <h1 className="kerry1234">Kerry1234</h1>
-      <button className="btn-color"><span className="eiei">Back</span><span className="eiei">to</span><span>home</span></button>
+    <div className="half-background flex justify-center flex-col items-center">
+      <img
+              src={logo}
+              class="h-48 w-full object-cover md:h-full md:w-48 logo"
+              alt="logo"
+            />
+      <div class="flex flex-row max-h-[46.875rem] max-w-[46.875rem] bg-white rounded-xl shadow-md overflow-hidden ">
+        <div class="md:flex h-[46.875rem] max-w-[46.875rem]">
+          <div class="md:shrink-0">
+            {" "}
+            <img
+              src={vector}
+              class="object-cover md:h-full md:w-48 picture"
+              alt="picture"
+            />
+          </div>
+          <div class="p-8 flex flex-col items-center pt-0">
+            <div class="font1">
+              <span>
+                Welcome to <span className="span-kerry">Kerry Express</span>
+              </span>
+            </div>
+            <div className="font2">
+              <span>Kerry1234</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
