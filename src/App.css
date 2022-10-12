@@ -9,8 +9,9 @@
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  /* font-size: 24px; */
   line-height: 36px;
+  font-size: calc(100% + 0.8vmin);
   /* identical to box height, or 150% */
 
   /* Gray-Kerry */
@@ -27,8 +28,9 @@
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  /* font-size: 58px; */
   line-height: 92px;
+  font-size: calc(280% + 0.8vmin);
   /* identical to box height */
 
   /* Gray-Kerry */
