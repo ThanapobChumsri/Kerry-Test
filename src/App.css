@@ -6,7 +6,6 @@
 
 .font1 {
   /* Lead Text 2 - 21 Regular */
-
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 400;
@@ -25,7 +24,6 @@
 
 .font2 {
   /* Large Heading - h3 58 px */
-
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 700;
@@ -51,7 +49,7 @@
   left: 416px;
   top: 182px;
 }
-button {
+.button-text {
   width: 93px;
   height: 16px;
 
@@ -60,7 +58,7 @@ button {
   font-family: "Sukhumvit Set";
   font-style: normal;
   font-weight: 700;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 16px;
   /* identical to box height, or 114% */
 
@@ -90,9 +88,7 @@ button {
   padding: 14px 32px;
   gap: 10px;
 
-  position: absolute;
-  left: 93.5%;
-  right: 43.82%;
+  position: relative;
   top: 77%;
   bottom: 16.86%;
 
@@ -100,7 +96,4 @@ button {
 
   background: #f37024;
   border-radius: 4px;
-}
-.eiei{
-  margin-right: -6px;
 }
