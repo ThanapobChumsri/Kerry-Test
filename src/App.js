@@ -27,8 +27,8 @@ function App() {
               alt="logo"
             />
       <div class="flex flex-row max-h-[46.875rem] max-w-[46.875rem] bg-white rounded-xl shadow-md overflow-hidden ">
-        <div class="md:flex h-[46.875rem] max-w-[46.875rem]">
-          <div class="md:shrink-0">
+        <div class="md:flex h-[46.875rem] w-[46.875rem]">
+          <div class="md:shrink-0 flex flex-col items-center">
             {" "}
             <img
               src={vector}
@@ -45,6 +45,7 @@ function App() {
             <div className="font2">
               <span>Kerry1234</span>
             </div>
+             <button className="btn-color"><span className="eiei">Back</span><span className="eiei">to</span><span>home</span></button>
           </div>
         </div>
       </div>
