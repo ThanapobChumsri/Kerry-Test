@@ -28,7 +28,7 @@ function App() {
             />
       <div class="flex flex-row max-h-[46.875rem] max-w-[46.875rem] bg-white rounded-xl shadow-md overflow-hidden ">
         <div class="md:flex h-[46.875rem] w-[46.875rem]">
-          <div class="md:shrink-0 flex flex-col items-center">
+          <div class="md:shrink-0 flex flex-col items-center mt-[2.813rem]">
             {" "}
             <img
               src={vector}
@@ -37,15 +37,17 @@ function App() {
             />
           </div>
           <div class="p-8 flex flex-col items-center pt-0">
-            <div class="font1">
+            <div class="font1 mt-[-1.563rem]">
               <span>
                 Welcome to <span className="span-kerry">Kerry Express</span>
               </span>
             </div>
-            <div className="font2">
+            <div className="font2 mt-[1.25rem]">
               <span>Kerry1234</span>
             </div>
-             <button className="btn-color"><span className="eiei">Back</span><span className="eiei">to</span><span>home</span></button>
+            <div className="flex space-x-2 justify-center mt-[1.3rem]">
+            <button className="btn-color"><span className="button-text">Back&nbsp; &nbsp; &nbsp;to&nbsp; &nbsp; &nbsp;home</span></button>
+            </div>
           </div>
         </div>
       </div>
